@@ -7,9 +7,12 @@ import Dashboard from "./pages/Dashboard"
 
 import Header from "./components/Header"
 
+
+
 export default function Main() {
   return (
     <BrowserRouter>
+    
     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
